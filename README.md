@@ -2,7 +2,7 @@
 
 A community catalog for [CoffeeShop](https://github.com/timkicker/coffeeshop), the Wii U SDCafiine mod manager. The live feed currently has **14 archive-checked mods across five Wii U games**. It includes character skins, level hacks, a Splatoon expansion, and a Breath of the Wild quest change.
 
-The repository contains metadata only. ZIPs are downloaded from the mod creators or existing community hosts. See [SOURCES.md](SOURCES.md) for attribution and [DISCOVERY.md](DISCOVERY.md) for notable projects that need manual installation or a different archive layout.
+The repository contains metadata only. ZIPs are downloaded from the mod creators or existing community hosts. See the [game-by-game mod list](MOD_LIST.md) for everything in the feed, [SOURCES.md](SOURCES.md) for attribution, and [DISCOVERY.md](DISCOVERY.md) for notable projects that need manual installation or a different archive layout.
 
 ## Add this repository to CoffeeShop
 
@@ -34,6 +34,8 @@ The repository contains metadata only. ZIPs are downloaded from the mod creators
 Use the **raw `repo.json` URL**, not the GitHub repository page URL. CoffeeShop's [official configuration reference](https://github.com/timkicker/coffeeshop#configjson-reference) supports multiple repositories.
 
 ## Live catalog
+
+The [full mod list](MOD_LIST.md) gives each included mod's description, author, download size, and source.
 
 | Game | Mods | Highlights |
 | --- | ---: | --- |
