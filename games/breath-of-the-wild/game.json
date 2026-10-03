@@ -1,0 +1,23 @@
+{
+  "name": "The Legend of Zelda: Breath of the Wild",
+  "titleIds": [
+    "00050000101C9400",
+    "00050000101C9500",
+    "00050000101C9300"
+  ],
+  "mods": [
+    {
+      "id": "botw-korok-trials-first",
+      "name": "Korok Trials before Master Sword",
+      "author": "Nebroc",
+      "version": "1.0",
+      "description": "Changes the Master Sword sequence so the Korok Trials come first. Download is the creator's SDCafiine/Cemu ZIP.",
+      "download": "https://gamebanana.com/dl/1150666",
+      "type": "mod",
+      "thumbnail": "https://images.gamebanana.com/img/ss/mods/65e752fb18899.jpg",
+      "tags": ["gameplay", "quest"],
+      "fileSize": 14781977,
+      "sha256": "fd2b5b9766f7e45930681fff144b154889c0e47edaa3ef8b3db014bb129d4f87"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "name": "Mario Kart 8",
+  "titleIds": [
+    "000500001010EC00",
+    "000500001010ED00",
+    "000500001010EB00"
+  ],
+  "mods": [
+    {
+      "id": "mk8-squidward",
+      "name": "Squidward joins Mario Kart!",
+      "author": "kalomaze",
+      "version": "1.0.0",
+      "description": "Squidward character skin over Luigi.",
+      "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/squidwardmariokart/squidwardmariokart.zip",
+      "type": "mod",
+      "thumbnail": "https://images.gamebanana.com/img/ss/mods/5ad6b502eeb0f.jpg",
+      "tags": ["character", "skin"],
+      "fileSize": 1464664,
+      "sha256": "0aae92ac60b03f8edbb7ff7e9386c1c38b05d55bb1beb9ce08d23740b0d60347"
+    },
+    {
+      "id": "mk8-spongebob",
+      "name": "SpongeBob joins Mario Kart!",
+      "author": "kalomaze",
+      "version": "1.0.0",
+      "description": "SpongeBob character skin over Lakitu.",
+      "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/spongebobmk8/spongebobmk8.zip",
+      "type": "mod",
+      "thumbnail": "https://images.gamebanana.com/img/ss/mods/5acea99f84ff7.jpg",
+      "tags": ["character", "skin"],
+      "fileSize": 1939723,
+      "sha256": "c2d46e29b1d9f33fc20e75947f3772a25ed3cbef7b23fb62994fdd887889296c"
+    },
+    {
+      "id": "mk8-shrek",
+      "name": "Shrek joins Mario Kart!",
+      "author": "kalomaze",
+      "version": "1.0.0",
+      "description": "Shrek character skin over Donkey Kong.",
+      "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/shrekkart8/shrekkart8.zip",
+      "type": "mod",
+      "thumbnail": "https://images.gamebanana.com/img/ss/mods/5ad38d62a176e.jpg",
+      "tags": ["character", "skin"],
+      "fileSize": 1199959,
+      "sha256": "24010cc99f7b9c755e0b1691ef35a405d2ef92bb878f95045870c8982617cd87"
+    },
+    {
+      "id": "mk8-doofenshmirtz",
+      "name": "Dr. Doofenshmirtz",
+      "author": "RedYoshiKart",
+      "version": "1.0.0",
+      "description": "Dr. Doofenshmirtz character skin over Iggy.",
+      "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/doofupdated/doofupdated.zip",
+      "type": "mod",
+      "thumbnail": "https://images.gamebanana.com/img/ss/mods/64289e4a3c70d.jpg",
+      "tags": ["character", "skin"],
+      "fileSize": 1109799,
+      "sha256": "75d8f6aab67fec41c7e296c0eeb4e7c3fb8508a51fa544a758f99622e462b65c"
+    },
+    {
+      "id": "mk8-crewmate-plus",
+      "name": "Crewmate+",
+      "author": "St!nktofu",
+      "version": "1.1.0",
+      "description": "Among Us Crewmate over Shy Guy, with menu art, emblem and sounds.",
+      "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/Crewmate%2B/Crewmate+.zip",
+      "type": "mod",
+      "thumbnail": "https://images.gamebanana.com/img/ss/mods/6323554c73982.jpg",
+      "tags": ["character", "skin", "audio"],
+      "fileSize": 10106271,
+      "sha256": "a67acfcd6fc3b092971370be7b12932af337cf180fb16238b3eef3db1b0d1ce6"
+    },
+    {
+      "id": "mk8-hotel-mario",
+      "name": "Hotel Mario with voice clips",
+      "author": "Dekgear",
+      "version": "1.0",
+      "description": "Hotel Mario model and voice clips over Mario; the ZIP also contains an unused UI readme.",
+      "download": "https://gamebanana.com/dl/1194002",
+      "type": "mod",
+      "thumbnail": "https://images.gamebanana.com/img/ss/mods/6642a1ee5ed26.jpg",
+      "tags": ["character", "skin", "audio"],
+      "fileSize": 2024840,
+      "sha256": "adc03dae323a90e579c0af233d2f745f63296a6ee1263cbd79cb08f0b0c31433"
+    }
+  ]
+}

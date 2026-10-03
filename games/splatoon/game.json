@@ -1,0 +1,50 @@
+{
+  "name": "Splatoon",
+  "titleIds": [
+    "0005000010176900",
+    "0005000010176A00",
+    "0005000010162B00"
+  ],
+  "mods": [
+    {
+      "id": "splatoon-plus",
+      "name": "Splatoon+",
+      "author": "Delus1on_L",
+      "version": "1.3.2",
+      "description": "Large content expansion with new gear, stages, UI and visual changes. Requires NoHash and Rival Unpatched; follow the original project instructions before installing.",
+      "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/Splatoon%2B/Splatoon+.zip",
+      "type": "modpack",
+      "thumbnail": "https://images.gamebanana.com/img/ss/mods/6835eb0bc2b6c.jpg",
+      "tags": ["expansion", "gear", "stage", "ui"],
+      "requirements": ["NoHash", "Rival Unpatched; use the Player.pack included with Splatoon+"],
+      "fileSize": 207262119,
+      "sha256": "fa2fb64eede84620aa0adbb85dd36ce5c244e5ff2d13b049eab7f9ec54242f3c"
+    },
+    {
+      "id": "splatoon-squidward",
+      "name": "Squidward Expansion v2",
+      "author": "kalomaze",
+      "version": "2.0.0",
+      "description": "Squidward skin over the male Inkling. This download is the author's version with visible feet.",
+      "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/squidward/Squidward.Version.with.feet.zip",
+      "type": "mod",
+      "thumbnail": "https://images.gamebanana.com/img/ss/mods/5b08c365c0766.jpg",
+      "tags": ["character", "skin"],
+      "fileSize": 15219153,
+      "sha256": "6753d089b06ff812f521f692bba4f00f1344d940ce413dc2aa80244fca83a591"
+    },
+    {
+      "id": "splatoon-sunset-maps",
+      "name": "Sunset Maps",
+      "author": "TOKEN-CANARY",
+      "version": "1.4.0",
+      "description": "Sunset lighting and skyboxes for many multiplayer and story maps. The author notes some map textures may break.",
+      "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/sunsetmaps_910e5/sunsetmaps_910e5.zip",
+      "type": "mod",
+      "thumbnail": "https://images.gamebanana.com/img/ss/mods/6312a64e03a2b.jpg",
+      "tags": ["lighting", "stage", "visual"],
+      "fileSize": 3194908,
+      "sha256": "2b77789258da4ab5ad56b63d4928a1e7b2884e08c19853890fd7f81a458c5959"
+    }
+  ]
+}

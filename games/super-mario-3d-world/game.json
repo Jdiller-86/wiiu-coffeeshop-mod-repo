@@ -1,0 +1,23 @@
+{
+  "name": "Super Mario 3D World",
+  "titleIds": [
+    "0005000010145C00",
+    "0005000010145D00",
+    "0005000010106100"
+  ],
+  "mods": [
+    {
+      "id": "sm3dw-3d-land-4-3",
+      "name": "3D Land 4-3",
+      "author": "souperman9",
+      "version": "1.0",
+      "description": "Recreates Super Mario 3D Land 4-3 as a playable 3D World course; the creator reports testing on Wii U hardware.",
+      "download": "https://gamebanana.com/dl/485219",
+      "type": "mod",
+      "thumbnail": "https://images.gamebanana.com/img/ss/mods/5f59ffb09dd38.jpg",
+      "tags": ["course", "level"],
+      "fileSize": 874633,
+      "sha256": "57d04d798bf0772f23404798b81515f9e39b8d4c7195b9250fcbb434cf48f21c"
+    }
+  ]
+}

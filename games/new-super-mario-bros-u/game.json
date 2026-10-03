@@ -1,0 +1,48 @@
+{
+  "name": "New Super Mario Bros. U",
+  "titleIds": [
+    "0005000010101D00",
+    "0005000010101E00",
+    "0005000010101C00"
+  ],
+  "mods": [
+    {
+      "id": "nsmbu-cloudy-2",
+      "name": "Cloudy Super Mario Bros. U 2",
+      "author": "Rimea",
+      "version": "2.0.0",
+      "description": "Large level overhaul with new courses, tilesets and music. Use alone; it replaces much of the base game.",
+      "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/csmbu2/Cloudy.SMBU.2.Console.Edition.zip",
+      "type": "modpack",
+      "thumbnail": "https://images.gamebanana.com/img/ss/mods/628946d56e9b0.jpg",
+      "tags": ["levels", "music", "overhaul"],
+      "fileSize": 923345731,
+      "sha256": "b76a2ba70b2cbdeb34fd3ae3e9d99d2e45e5334e142f279b74f1b6598c07d22c"
+    },
+    {
+      "id": "nsmbu-floor-is-lava",
+      "name": "NSMBU but the floor is lava",
+      "author": "BowManakin",
+      "version": "2.0.0",
+      "description": "Turns the floors across Acorn Plains through Superstar Road into a lava challenge. Use alone.",
+      "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/nsmbufloorlava/NSMBU.but.the.floor.is.lava.zip",
+      "type": "modpack",
+      "thumbnail": "https://images.gamebanana.com/img/ss/mods/699a2e65150bf.jpg",
+      "tags": ["challenge", "levels", "overhaul"],
+      "fileSize": 912481051,
+      "sha256": "19e0eb85da59d5409850dbbe1509ea115b0e4c6c0b75efcd56973439c51cbcc5"
+    },
+    {
+      "id": "nsmbu-snowy",
+      "name": "Snowy Super Mario Bros. U",
+      "author": "earthwise01",
+      "version": "1.1",
+      "description": "Creator-hosted Release 2 of a snow-themed level hack. Contains US English text assets and extra documentation files; use alone.",
+      "download": "https://github.com/earthwise01/SnowySMBU/releases/download/v1.1/SnowyURelease2.zip",
+      "type": "modpack",
+      "tags": ["levels", "music", "overhaul"],
+      "fileSize": 345117669,
+      "sha256": "d9e3e4eb9b3373e65ae4e1c80bdb06abc020af939503579e704b4c5da969f57c"
+    }
+  ]
+}
