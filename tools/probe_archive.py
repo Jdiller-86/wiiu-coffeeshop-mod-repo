@@ -22,7 +22,7 @@ from pathlib import PurePosixPath
 from urllib.parse import urlsplit, urlunsplit
 
 
-def probe(url: str, max_bytes: int) -> dict:
+def probe(url: str, max_bytes: int, read_timeout: int = 20) -> dict:
     request = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0"})
     fd, path = tempfile.mkstemp(prefix="coffeeshop-probe-", suffix=".zip")
     os.close(fd)
@@ -31,7 +31,7 @@ def probe(url: str, max_bytes: int) -> dict:
         digest = hashlib.sha256()
         size = 0
         started = time.monotonic()
-        with urllib.request.urlopen(request, timeout=20) as response, open(path, "wb") as output:
+        with urllib.request.urlopen(request, timeout=read_timeout) as response, open(path, "wb") as output:
             # Release hosts often redirect to short-lived signed URLs. Keep the
             # host and path for troubleshooting without printing query tokens.
             parts = urlsplit(response.url)
@@ -40,8 +40,8 @@ def probe(url: str, max_bytes: int) -> dict:
             if declared and int(declared) > max_bytes:
                 raise ValueError(f"declared size {declared} exceeds {max_bytes} byte limit")
             while chunk := response.read(1024 * 1024):
-                if time.monotonic() - started > 180:
-                    raise TimeoutError("download exceeded three-minute audit limit")
+                if time.monotonic() - started > 600:
+                    raise TimeoutError("download exceeded ten-minute audit limit")
                 size += len(chunk)
                 if size > max_bytes:
                     raise ValueError(f"download exceeds {max_bytes} byte limit")
@@ -84,13 +84,15 @@ def main() -> None:
                         help="concurrent downloads when probing multiple ZIPs")
     parser.add_argument("--summary", action="store_true",
                         help="print one compact JSON object per URL")
+    parser.add_argument("--read-timeout", type=int, default=20,
+                        help="network read timeout in seconds (default: 20)")
     args = parser.parse_args()
     if any(not url.startswith("https://") for url in args.urls):
         parser.error("every URL must use HTTPS")
 
     def attempt(url: str) -> dict:
         try:
-            return probe(url, args.max_mb * 1_000_000)
+            return probe(url, args.max_mb * 1_000_000, args.read_timeout)
         except (OSError, ValueError, zipfile.BadZipFile) as exc:
             return {"url": url, "error": str(exc)}
 

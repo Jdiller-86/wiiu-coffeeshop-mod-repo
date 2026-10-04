@@ -1,6 +1,6 @@
 # More Wii U mods to explore
 
-Researched **2026-10-04**. These are notable major projects with original creator or project pages. They are **not entries in this repository's live CoffeeShop feed**. CoffeeShop needs a direct HTTPS ZIP that extracts to SDCafiine-ready `content/` and/or `aoc/` directories at the archive root. Some projects require merging, a separate manager, a game dump, or manual selection of a region or variant. Follow each creator's instructions before installing. The compatible Relics of the Past development ZIP and Super Mario Maker's NSMB Wii theme are now in the [live mod list](MOD_LIST.md).
+Researched **2026-10-04**. These are notable major projects with original creator or project pages. They are **not entries in this repository's live CoffeeShop feed**. CoffeeShop needs a direct HTTPS ZIP that extracts to SDCafiine-ready `content/` and/or `aoc/` directories at the archive root. Some projects require merging, a separate manager, a game dump, or manual selection of a region or variant. Follow each creator's instructions before installing. See also the [focused Mario Kart and Smash guide](MARIO_KART_AND_SMASH.md). The compatible Relics of the Past development ZIP and Super Mario Maker's NSMB Wii theme are now in the [live mod list](MOD_LIST.md).
 
 | Game | Mod and original page | Why it is a manual discovery link |
 | --- | --- | --- |

@@ -2,7 +2,7 @@
 
 A community catalog for [CoffeeShop](https://github.com/timkicker/coffeeshop), the Wii U SDCafiine mod manager. The live feed has **50 archive-checked mods across eight Wii U games**: large level and gameplay overhauls, custom Mario Kart tracks, character swaps, and small joke mods.
 
-The repository contains metadata only. ZIPs are downloaded from the mod creators or existing community hosts. See the [game-by-game mod list](MOD_LIST.md) for everything in the feed, [SOURCES.md](SOURCES.md) for attribution, and [DISCOVERY.md](DISCOVERY.md) for notable projects that need manual installation or a different archive layout.
+The repository contains metadata only. ZIPs are downloaded from the mod creators or existing community hosts. See the [game-by-game mod list](MOD_LIST.md) for everything in the feed, [SOURCES.md](SOURCES.md) for attribution, the [large Mario Kart and Smash guide](MARIO_KART_AND_SMASH.md), and [DISCOVERY.md](DISCOVERY.md) for more projects that need manual installation or a different archive layout.
 
 ## Add this repository to CoffeeShop
 
@@ -50,7 +50,7 @@ The [full mod list](MOD_LIST.md) gives each included mod's description, author, 
 
 The four New Super Mario Bros. U overhauls are alternatives. Install and activate one at a time. Snowy SMBU uses the creator's SDCafiine build without custom music and requires the game's v1.3 update. **Splatoon+ needs NoHash and Rival Unpatched**, which CoffeeShop does not install for you; follow the [creator's instructions](https://gamebanana.com/mods/570597) and use the `Player.pack` included with Splatoon+. The Relics of the Past entry is a development build, and Super Trolly 3D World asks for a fresh save. Mods replacing the same files may conflict; CoffeeShop does not merge their contents.
 
-Some mod archives are large: Cloudy SMBU 2 and Floor Is Lava are each about 0.9 GB, and Enemies Quit Their Job is about 0.8 GB. Leave enough free SD card space for both the downloaded ZIP and extracted files. ZIPs include extra documentation or metadata in a few cases, but every listed archive has game files directly under a top-level `content/` and/or `aoc/` directory. The [manual modpack guide](DISCOVERY.md) links other major projects whose published packages require different setup.
+Some mod archives are large: Cloudy SMBU 2 and Floor Is Lava are each about 0.9 GB, and Enemies Quit Their Job is about 0.8 GB. Leave enough free SD card space for both the downloaded ZIP and extracted files. ZIPs include extra documentation or metadata in a few cases, but every listed archive has game files directly under a top-level `content/` and/or `aoc/` directory. The [Mario Kart and Smash guide](MARIO_KART_AND_SMASH.md) and [other discoveries](DISCOVERY.md) link major projects whose published packages require different setup.
 
 ### Match the full Title ID
 
