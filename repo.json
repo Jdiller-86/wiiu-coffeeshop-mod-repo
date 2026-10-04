@@ -3,12 +3,39 @@
   "name": "Wii U CoffeeShop Picks",
   "description": "Curated, archive-checked SDCafiine mods for Wii U games. Downloads remain with their existing hosts and creators.",
   "author": "Jdiller-86",
-  "version": "1",
+  "version": "2",
   "games": [
-    { "id": "mario-kart-8", "path": "games/mario-kart-8/game.json" },
-    { "id": "splatoon", "path": "games/splatoon/game.json" },
-    { "id": "new-super-mario-bros-u", "path": "games/new-super-mario-bros-u/game.json" },
-    { "id": "super-mario-3d-world", "path": "games/super-mario-3d-world/game.json" },
-    { "id": "breath-of-the-wild", "path": "games/breath-of-the-wild/game.json" }
+    {
+      "id": "mario-kart-8",
+      "path": "games/mario-kart-8/game.json"
+    },
+    {
+      "id": "splatoon",
+      "path": "games/splatoon/game.json"
+    },
+    {
+      "id": "new-super-mario-bros-u",
+      "path": "games/new-super-mario-bros-u/game.json"
+    },
+    {
+      "id": "super-mario-3d-world",
+      "path": "games/super-mario-3d-world/game.json"
+    },
+    {
+      "id": "breath-of-the-wild",
+      "path": "games/breath-of-the-wild/game.json"
+    },
+    {
+      "id": "super-mario-maker",
+      "path": "games/super-mario-maker/game.json"
+    },
+    {
+      "id": "wind-waker-hd",
+      "path": "games/wind-waker-hd/game.json"
+    },
+    {
+      "id": "twilight-princess-hd",
+      "path": "games/twilight-princess-hd/game.json"
+    }
   ]
 }

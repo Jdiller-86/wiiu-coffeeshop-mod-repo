@@ -15,7 +15,10 @@
       "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/squidwardmariokart/squidwardmariokart.zip",
       "type": "mod",
       "thumbnail": "https://images.gamebanana.com/img/ss/mods/5ad6b502eeb0f.jpg",
-      "tags": ["character", "skin"],
+      "tags": [
+        "character",
+        "skin"
+      ],
       "fileSize": 1464664,
       "sha256": "0aae92ac60b03f8edbb7ff7e9386c1c38b05d55bb1beb9ce08d23740b0d60347"
     },
@@ -28,7 +31,10 @@
       "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/spongebobmk8/spongebobmk8.zip",
       "type": "mod",
       "thumbnail": "https://images.gamebanana.com/img/ss/mods/5acea99f84ff7.jpg",
-      "tags": ["character", "skin"],
+      "tags": [
+        "character",
+        "skin"
+      ],
       "fileSize": 1939723,
       "sha256": "c2d46e29b1d9f33fc20e75947f3772a25ed3cbef7b23fb62994fdd887889296c"
     },
@@ -41,7 +47,10 @@
       "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/shrekkart8/shrekkart8.zip",
       "type": "mod",
       "thumbnail": "https://images.gamebanana.com/img/ss/mods/5ad38d62a176e.jpg",
-      "tags": ["character", "skin"],
+      "tags": [
+        "character",
+        "skin"
+      ],
       "fileSize": 1199959,
       "sha256": "24010cc99f7b9c755e0b1691ef35a405d2ef92bb878f95045870c8982617cd87"
     },
@@ -54,7 +63,10 @@
       "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/doofupdated/doofupdated.zip",
       "type": "mod",
       "thumbnail": "https://images.gamebanana.com/img/ss/mods/64289e4a3c70d.jpg",
-      "tags": ["character", "skin"],
+      "tags": [
+        "character",
+        "skin"
+      ],
       "fileSize": 1109799,
       "sha256": "75d8f6aab67fec41c7e296c0eeb4e7c3fb8508a51fa544a758f99622e462b65c"
     },
@@ -67,7 +79,11 @@
       "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/Crewmate%2B/Crewmate+.zip",
       "type": "mod",
       "thumbnail": "https://images.gamebanana.com/img/ss/mods/6323554c73982.jpg",
-      "tags": ["character", "skin", "audio"],
+      "tags": [
+        "character",
+        "skin",
+        "audio"
+      ],
       "fileSize": 10106271,
       "sha256": "a67acfcd6fc3b092971370be7b12932af337cf180fb16238b3eef3db1b0d1ce6"
     },
@@ -80,9 +96,449 @@
       "download": "https://gamebanana.com/dl/1194002",
       "type": "mod",
       "thumbnail": "https://images.gamebanana.com/img/ss/mods/6642a1ee5ed26.jpg",
-      "tags": ["character", "skin", "audio"],
+      "tags": [
+        "character",
+        "skin",
+        "audio"
+      ],
       "fileSize": 2024840,
       "sha256": "adc03dae323a90e579c0af233d2f745f63296a6ee1263cbd79cb08f0b0c31433"
+    },
+    {
+      "id": "mk8-meloetta",
+      "name": "Pokemon: Meloetta",
+      "author": "DarkyBenji",
+      "version": "gb-file-404271",
+      "description": "Meloetta over Peach with Aria kart and Pirouette bike forms, custom voice and horn.",
+      "download": "https://gamebanana.com/dl/404271",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin",
+        "audio"
+      ],
+      "fileSize": 15731801,
+      "sha256": "55693a34ed6f4cb4c2257e761458e8f6a4f5c98a8467d3e04a81a0299c8e2c59"
+    },
+    {
+      "id": "mk8-luigi-circuit",
+      "name": "Luigi Circuit (Double Dash!!)",
+      "author": "MagnaDR",
+      "version": "gb-file-447766",
+      "description": "Double Dash!! course over GBA Cheese Land, with music, minimap and menu art; requires MK8 DLC Pack 2.",
+      "download": "https://gamebanana.com/dl/447766",
+      "type": "mod",
+      "tags": [
+        "course",
+        "music",
+        "dlc"
+      ],
+      "fileSize": 22526256,
+      "sha256": "e8a6341276b58a5c5932ee7bdb2af85629d5c8cb5b5cbcf7b073f27c29f3def2",
+      "requirements": [
+        "Mario Kart 8 DLC Pack 2 (GBA Cheese Land)"
+      ]
+    },
+    {
+      "id": "mk8-sky-arena",
+      "name": "Sky Arena CT",
+      "author": "Divengerss",
+      "version": "gb-file-451868",
+      "description": "Arcade GP DX track over Thwomp Ruins; creator notes the cannon does not work.",
+      "download": "https://gamebanana.com/dl/451868",
+      "type": "mod",
+      "tags": [
+        "course"
+      ],
+      "fileSize": 81429284,
+      "sha256": "337496137d09a34a8117abe153f9678fe35e474de2511377ba2e683b73b4dc0b"
+    },
+    {
+      "id": "mk8-bowsette",
+      "name": "Bowsette",
+      "author": "DarkyBenji",
+      "version": "gb-file-398319",
+      "description": "Bowsette character skin over Pink Gold Peach.",
+      "download": "https://gamebanana.com/dl/398319",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin"
+      ],
+      "fileSize": 11721324,
+      "sha256": "0b4c4fb1f804eb45475895bc998314c9f1ab16777267c11c105930cfbe91e3b1"
+    },
+    {
+      "id": "mk8-princess-waluigi",
+      "name": "Princess Waluigi",
+      "author": "Nickolox",
+      "version": "gb-file-584258",
+      "description": "Princess Waluigi over Rosalina, with voices; menu icons in the ZIP need manual import.",
+      "download": "https://gamebanana.com/dl/584258",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin",
+        "audio"
+      ],
+      "fileSize": 4987344,
+      "sha256": "ebfec6a331b7006c3047851f9745169fbd90b7ccba6356f588f19e439b44a0cc"
+    },
+    {
+      "id": "mk8-ninja-hideaway",
+      "name": "Ninja Hideaway",
+      "author": "voidsource",
+      "version": "gb-file-664617",
+      "description": "Mario Kart Tour track over 3DS Piranha Plant Slide.",
+      "download": "https://gamebanana.com/dl/664617",
+      "type": "mod",
+      "tags": [
+        "course"
+      ],
+      "fileSize": 33313321,
+      "sha256": "68f469a2ce16e65fd13fb8fb28357b80231bbec539821dad1c06a721e540edda"
+    },
+    {
+      "id": "mk8-vancouver-velocity",
+      "name": "Vancouver Velocity CT",
+      "author": "Divengerss",
+      "version": "gb-file-452812",
+      "description": "Wii U tuned Vancouver Velocity track over DS Tick-Tock Clock.",
+      "download": "https://gamebanana.com/dl/452812",
+      "type": "mod",
+      "tags": [
+        "course"
+      ],
+      "fileSize": 64429917,
+      "sha256": "ceaf119b5eb95a23517073be4cdd537295dbce08c72682d1d3122ea2954ad630"
+    },
+    {
+      "id": "mk8-halloween-rosalina",
+      "name": "Rosalina (Halloween) from MKT",
+      "author": "MagnaDR",
+      "version": "gb-file-437091",
+      "description": "Mario Kart Tour Halloween Rosalina character skin over Rosalina.",
+      "download": "https://gamebanana.com/dl/437091",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin"
+      ],
+      "fileSize": 1505479,
+      "sha256": "4f6a810f5f65c3175219165573c49f41cf3585f338d5f5675fc6a24e8e62ff2f"
+    },
+    {
+      "id": "mk8-broken-rainbow-road",
+      "name": "Broken Rainbow Road",
+      "author": "voidsource",
+      "version": "gb-file-586781",
+      "description": "Custom Rainbow Road with branching paths and tighter drift challenges.",
+      "download": "https://gamebanana.com/dl/586781",
+      "type": "mod",
+      "tags": [
+        "course",
+        "challenge"
+      ],
+      "fileSize": 29426254,
+      "sha256": "aeb86cf7ba6ab658494b9decfbfdb9895b56cc87078eb43b33a40b9062c3a7fe"
+    },
+    {
+      "id": "mk8-face-raiders-helmet",
+      "name": "Face Raiders Helmet",
+      "author": "Radnos",
+      "version": "gb-file-545906",
+      "description": "Face Raiders helmet over the Wario suit; separate UI art is not included in this install.",
+      "download": "https://gamebanana.com/dl/545906",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin"
+      ],
+      "fileSize": 744263,
+      "sha256": "1e49da43339306b3021dcf4b69fb598859ec4a0ce2e81e3ebf109f0b3a5ff4d8"
+    },
+    {
+      "id": "mk8-poochy",
+      "name": "Poochy with MKT Animations",
+      "author": "VoxelYoshi7565",
+      "version": "gb-file-996451",
+      "description": "Poochy character port with Mario Kart Tour animations.",
+      "download": "https://gamebanana.com/dl/996451",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin"
+      ],
+      "fileSize": 893717,
+      "sha256": "9b75ff0f347358fbf760a0e9337dcd9b2731150475b7b76f6802496c061cb3b4"
+    },
+    {
+      "id": "mk8-arcade-standard-kart",
+      "name": "Standard Kart from MKAGPDX",
+      "author": "MagnaDR",
+      "version": "gb-file-456392",
+      "description": "Mario Kart Arcade GP DX Standard Kart over the regular Standard Kart.",
+      "download": "https://gamebanana.com/dl/456392",
+      "type": "mod",
+      "tags": [
+        "kart"
+      ],
+      "fileSize": 20992917,
+      "sha256": "1e1cd9751883702d688ebe003681894a5c3acdb66f443cf333d1beae467646be"
+    },
+    {
+      "id": "mk8-funky-kong",
+      "name": "Funky Kong from MKT",
+      "author": "MagnaDR",
+      "version": "gb-file-464306",
+      "description": "Mario Kart Tour Funky Kong over Donkey Kong, with emblem and UI files.",
+      "download": "https://gamebanana.com/dl/464306",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin"
+      ],
+      "fileSize": 1708406,
+      "sha256": "742120a614ad4d970db23776616bb08aa9a9b432075470014be21b1d893bdc1b"
+    },
+    {
+      "id": "mk8-blender-cube",
+      "name": "Blender's Default Cube",
+      "author": "Chumito",
+      "version": "gb-file-522562",
+      "description": "Race as the default Blender cube; a tiny joke character mod.",
+      "download": "https://gamebanana.com/dl/522562",
+      "type": "mod",
+      "tags": [
+        "character",
+        "funny"
+      ],
+      "fileSize": 429962,
+      "sha256": "856a7c57c01a8db13c52450f14a90a8c4bb50616c8a803dba60f965b769ee07c"
+    },
+    {
+      "id": "mk8-crystal-lagoon",
+      "name": "Rosalina's Crystal Lagoon",
+      "author": "voidsource",
+      "version": "gb-file-824485",
+      "description": "Icy custom course with anti-gravity turns and glowing crystals.",
+      "download": "https://gamebanana.com/dl/824485",
+      "type": "mod",
+      "tags": [
+        "course"
+      ],
+      "fileSize": 18346543,
+      "sha256": "035d58a56118dc48cb93059b5d2f0ea404af10eea094f461e4953245f692579d"
+    },
+    {
+      "id": "mk8-world-one-one",
+      "name": "World 1-1 inspired track",
+      "author": "voidsource",
+      "version": "gb-file-575176",
+      "description": "Custom course inspired by Super Mario Bros. World 1-1, with themed sound.",
+      "download": "https://gamebanana.com/dl/575176",
+      "type": "mod",
+      "tags": [
+        "course",
+        "music"
+      ],
+      "fileSize": 49204685,
+      "sha256": "eef6681acf7b6c7741f17f705360a021f0b1bb95a37840208b937b811463d60e"
+    },
+    {
+      "id": "mk8-ankha",
+      "name": "Ankha",
+      "author": "MrBerry",
+      "version": "gb-file-535140",
+      "description": "Animal Crossing's Ankha as a racer; optional icons require manual import.",
+      "download": "https://gamebanana.com/dl/535140",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin"
+      ],
+      "fileSize": 1870962,
+      "sha256": "9c4b27cc46c1dd406be2705a7bc0c6f4e7471875bf3f63d2a068955572ec1b3f"
+    },
+    {
+      "id": "mk8-pikachu",
+      "name": "Pikachu",
+      "author": "Watapascul",
+      "version": "gb-file-540510",
+      "description": "Expressive Pikachu over Baby Daisy; no custom voice in this ZIP.",
+      "download": "https://gamebanana.com/dl/540510",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin"
+      ],
+      "fileSize": 1138605,
+      "sha256": "3f672d4d6213b24558e9fc93e2bcb14381d6d21bed4d9b22c034ea00d8230169"
+    },
+    {
+      "id": "mk8-peachette",
+      "name": "Peachette from MKT",
+      "author": "MagnaDR",
+      "version": "gb-file-434450",
+      "description": "Mario Kart Tour Peachette over Peach, including bike suit.",
+      "download": "https://gamebanana.com/dl/434450",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin"
+      ],
+      "fileSize": 3449673,
+      "sha256": "310064246f889394bacdcf5d47385ab6819b1c144188c9343557275b1db93ad7"
+    },
+    {
+      "id": "mk8-golf-waluigi",
+      "name": "Golf Waluigi",
+      "author": "Nickolox",
+      "version": "gb-file-610203",
+      "description": "Waluigi's Mario Golf outfit; optional menu icons require manual import.",
+      "download": "https://gamebanana.com/dl/610203",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin"
+      ],
+      "fileSize": 1924691,
+      "sha256": "e07ca868e6798b5f8063d93f0ce0978d0a41375b95d1bc81e37ea01962308643"
+    },
+    {
+      "id": "mk8-mini-mario",
+      "name": "Mini-Mario",
+      "author": "VoxelYoshi7565",
+      "version": "gb-file-1136167",
+      "description": "Mini-Mario from Mario vs. Donkey Kong as a small racer.",
+      "download": "https://gamebanana.com/dl/1136167",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin",
+        "funny"
+      ],
+      "fileSize": 714288,
+      "sha256": "03ef212d49fe1640232a64cb09c07cbe902404c357d50c263254b7128d790dde"
+    },
+    {
+      "id": "mk8-comet-tail",
+      "name": "Comet Tail from MKT",
+      "author": "MagnaDR",
+      "version": "gb-file-449413",
+      "description": "Mario Kart Tour Comet Tail kart body over the B Dasher.",
+      "download": "https://gamebanana.com/dl/449413",
+      "type": "mod",
+      "tags": [
+        "kart"
+      ],
+      "fileSize": 387173,
+      "sha256": "f681e25dd339b25aa5ba3cf93c441c73a0411f744b7d41040155483a4958583d"
+    },
+    {
+      "id": "mk8-koopa-chase-kart",
+      "name": "Koopa Chase LV2 from SM3DW",
+      "author": "MagnaDR",
+      "version": "gb-file-443569",
+      "description": "Koopa Chase LV2 vehicle from Super Mario 3D World over the Badwagon.",
+      "download": "https://gamebanana.com/dl/443569",
+      "type": "mod",
+      "tags": [
+        "kart",
+        "funny"
+      ],
+      "fileSize": 733363,
+      "sha256": "213409f901692e74c14da53c185de4749a71e88f362ab080eaae24e85a406888"
+    },
+    {
+      "id": "mk8-gardevoir",
+      "name": "Pokemon: Gardevoir",
+      "author": "DarkyBenji",
+      "version": "gb-file-404273",
+      "description": "Gardevoir character skin over Rosalina.",
+      "download": "https://gamebanana.com/dl/404273",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin"
+      ],
+      "fileSize": 6740813,
+      "sha256": "fad7cf7436ecb499c370306b92358e4ca6b1680df8789e1df6868acd4b422003"
+    },
+    {
+      "id": "mk8-mr-krabs",
+      "name": "Clothed Mr. Krabs + Boat",
+      "author": "HourlyBoom79",
+      "version": "gb-file-1023381",
+      "description": "Mr. Krabs over Wario, with his boatmobile over Sports Coupe.",
+      "download": "https://gamebanana.com/dl/1023381",
+      "type": "mod",
+      "tags": [
+        "character",
+        "kart",
+        "funny"
+      ],
+      "fileSize": 2089686,
+      "sha256": "9c9984321d187d71c3229b5ef216f700cfacf98d7c2e9c223bf2ec7bfd8e691a"
+    },
+    {
+      "id": "mk8-mega-man",
+      "name": "Mega Man over Mario",
+      "author": "Gabrielfsn",
+      "version": "gb-file-499101",
+      "description": "Mega Man character model over Mario; no custom voice.",
+      "download": "https://gamebanana.com/dl/499101",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin"
+      ],
+      "fileSize": 1282265,
+      "sha256": "35f15f71ed2f8c9ca14f658e3e33744e5c7ae10b8081e024d2285075f8d3f5b1"
+    },
+    {
+      "id": "mk8-ctr-kart",
+      "name": "CTR classic kart",
+      "author": "S77",
+      "version": "gb-file-516523",
+      "description": "Crash Team Racing classic kart over Pipe Frame, with matching tires and colors.",
+      "download": "https://gamebanana.com/dl/516523",
+      "type": "mod",
+      "tags": [
+        "kart"
+      ],
+      "fileSize": 7711004,
+      "sha256": "081795ae64808a6bf2a24322380c3681d0fc315f3ef7d67c6f9535afd123e1ef"
+    },
+    {
+      "id": "mk8-fairy-daisy",
+      "name": "Daisy (Fairy) from MKT",
+      "author": "MagnaDR",
+      "version": "gb-file-463035",
+      "description": "Mario Kart Tour Fairy Daisy over Daisy.",
+      "download": "https://gamebanana.com/dl/463035",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin"
+      ],
+      "fileSize": 1306315,
+      "sha256": "0e6821ca0b9a3640ec6ce3e4b229dbb76a00e176a4ba2b41c03946826cad77f7"
+    },
+    {
+      "id": "mk8-cherub-baby-peach",
+      "name": "Baby Peach (Cherub) from MKT",
+      "author": "MagnaDR",
+      "version": "gb-file-448252",
+      "description": "Mario Kart Tour Cherub Baby Peach over Baby Peach.",
+      "download": "https://gamebanana.com/dl/448252",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin"
+      ],
+      "fileSize": 1684558,
+      "sha256": "37f9c359e5ef196dd757525830b50db7710fc93d545b5c5b784274d3db185482"
     }
   ]
 }

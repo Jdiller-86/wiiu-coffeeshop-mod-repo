@@ -15,7 +15,11 @@
       "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/csmbu2/Cloudy.SMBU.2.Console.Edition.zip",
       "type": "modpack",
       "thumbnail": "https://images.gamebanana.com/img/ss/mods/628946d56e9b0.jpg",
-      "tags": ["levels", "music", "overhaul"],
+      "tags": [
+        "levels",
+        "music",
+        "overhaul"
+      ],
       "fileSize": 923345731,
       "sha256": "b76a2ba70b2cbdeb34fd3ae3e9d99d2e45e5334e142f279b74f1b6598c07d22c"
     },
@@ -28,7 +32,11 @@
       "download": "https://github.com/ItsFuntum/funtum-coffeeshop-repo/releases/download/nsmbufloorlava/NSMBU.but.the.floor.is.lava.zip",
       "type": "modpack",
       "thumbnail": "https://images.gamebanana.com/img/ss/mods/699a2e65150bf.jpg",
-      "tags": ["challenge", "levels", "overhaul"],
+      "tags": [
+        "challenge",
+        "levels",
+        "overhaul"
+      ],
       "fileSize": 912481051,
       "sha256": "19e0eb85da59d5409850dbbe1509ea115b0e4c6c0b75efcd56973439c51cbcc5"
     },
@@ -37,12 +45,37 @@
       "name": "Snowy Super Mario Bros. U",
       "author": "earthwise01",
       "version": "1.1",
-      "description": "Creator-hosted Release 2 of a snow-themed level hack. Contains US English text assets and extra documentation files; use alone.",
-      "download": "https://github.com/earthwise01/SnowySMBU/releases/download/v1.1/SnowyURelease2.zip",
+      "description": "Snow-themed level hack. This is the creator's no-custom-music SDCafiine build; requires NSMBU v1.3 and should be used alone.",
+      "download": "https://github.com/earthwise01/SnowySMBU/releases/download/v1.1-ncm/SnowyU-noCustomMusic.zip",
       "type": "modpack",
-      "tags": ["levels", "music", "overhaul"],
-      "fileSize": 345117669,
-      "sha256": "d9e3e4eb9b3373e65ae4e1c80bdb06abc020af939503579e704b4c5da969f57c"
+      "tags": [
+        "levels",
+        "overhaul"
+      ],
+      "requirements": [
+        "New Super Mario Bros. U v1.3"
+      ],
+      "fileSize": 90282561,
+      "sha256": "db4724f63232137d90f784d45f7710bf824be22b84ee02b3e5306f17c8382c4f"
+    },
+    {
+      "id": "nsmbu-enemies-quit",
+      "name": "NSMBU But the Enemys quit their Job.",
+      "author": "GermanGamerGuy25",
+      "version": "gb-file-1024539",
+      "description": "Game-wide joke overhaul removing enemies and renaming levels in English and German. Activate alone.",
+      "download": "https://gamebanana.com/dl/1024539",
+      "type": "modpack",
+      "tags": [
+        "overhaul",
+        "funny",
+        "challenge"
+      ],
+      "fileSize": 798399252,
+      "sha256": "07339d8e452de32c05209780cc224af87b86085f05d4cef80e78f480fd6d2149",
+      "requirements": [
+        "Use with the base New Super Mario Bros. U game; activate alone"
+      ]
     }
   ]
 }

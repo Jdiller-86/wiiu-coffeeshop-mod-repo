@@ -1,0 +1,27 @@
+{
+  "name": "Super Mario Maker",
+  "titleIds": [
+    "000500001018DC00"
+  ],
+  "mods": [
+    {
+      "id": "smm-nsmbw-theme",
+      "name": "New Super Mario Bros. Wii Theme",
+      "author": "KartMakerBrosU",
+      "version": "gb-file-919131",
+      "description": "Replaces the New Super Mario Bros. U editor theme with a New Super Mario Bros. Wii styled theme. USA language assets.",
+      "download": "https://gamebanana.com/dl/919131",
+      "type": "mod",
+      "tags": [
+        "theme",
+        "visual",
+        "music"
+      ],
+      "fileSize": 72536256,
+      "sha256": "4c682231682f835f2fbcf6b21cbb83adf1429a161f916cd0dbd79150c35fc042",
+      "requirements": [
+        "USA game copy"
+      ]
+    }
+  ]
+}

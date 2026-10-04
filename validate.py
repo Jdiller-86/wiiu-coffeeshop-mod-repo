@@ -145,6 +145,28 @@ def validate_feed() -> tuple[list[dict], list[str]]:
     return mods, errors
 
 
+def validate_docs(mods: list[dict]) -> list[str]:
+    """Keep the public game list and source ledger in step with the feed."""
+    errors: list[str] = []
+    try:
+        mod_list = (ROOT / "MOD_LIST.md").read_text(encoding="utf-8")
+        sources = (ROOT / "SOURCES.md").read_text(encoding="utf-8")
+    except (OSError, UnicodeError) as exc:
+        return [f"catalog documentation: {exc}"]
+    source_ids = re.findall(r"^\| [^|]+ \| `([^`]+)` \|", sources, re.MULTILINE)
+    expected = {mod["id"] for mod in mods if isinstance(mod.get("id"), str)}
+    for mod in mods:
+        if isinstance(mod.get("name"), str) and mod["name"] not in mod_list:
+            errors.append(f"MOD_LIST.md: missing {mod.get('id', '?')}")
+    for mod_id in sorted(expected - set(source_ids)):
+        errors.append(f"SOURCES.md: missing {mod_id}")
+    for mod_id in sorted(set(source_ids) - expected):
+        errors.append(f"SOURCES.md: stale {mod_id}")
+    if len(source_ids) != len(set(source_ids)):
+        errors.append("SOURCES.md: duplicate mod ID")
+    return errors
+
+
 def request(url: str, method: str = "GET"):
     return urllib.request.Request(url, method=method, headers={"User-Agent": USER_AGENT})
 
@@ -220,6 +242,8 @@ def main() -> int:
     parser.add_argument("--mod", metavar="ID", help="limit network checks to one mod ID")
     args = parser.parse_args()
     mods, errors = validate_feed()
+    if not errors:
+        errors.extend(validate_docs(mods))
     if args.mod:
         mods = [mod for mod in mods if mod.get("id") == args.mod]
         if not mods:

@@ -15,9 +15,32 @@
       "download": "https://gamebanana.com/dl/485219",
       "type": "mod",
       "thumbnail": "https://images.gamebanana.com/img/ss/mods/5f59ffb09dd38.jpg",
-      "tags": ["course", "level"],
+      "tags": [
+        "course",
+        "level"
+      ],
       "fileSize": 874633,
       "sha256": "57d04d798bf0772f23404798b81515f9e39b8d4c7195b9250fcbb434cf48f21c"
+    },
+    {
+      "id": "sm3dw-super-trolly",
+      "name": "Super Trolly 3D World",
+      "author": "KingWhatThe",
+      "version": "gb-file-583692",
+      "description": "Mario Maker inspired troll level. Creator recommends a 0% save; physical Wii U compatibility is untested.",
+      "download": "https://gamebanana.com/dl/583692",
+      "type": "mod",
+      "tags": [
+        "level",
+        "funny",
+        "challenge",
+        "experimental"
+      ],
+      "fileSize": 6391556,
+      "sha256": "19eb35933c4380e44bf819b6e8fb38f1e0655ecc13fdc5df1008dff74f824217",
+      "requirements": [
+        "Start with a 0% save for the intended experience"
+      ]
     }
   ]
 }

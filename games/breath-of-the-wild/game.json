@@ -15,9 +15,50 @@
       "download": "https://gamebanana.com/dl/1150666",
       "type": "mod",
       "thumbnail": "https://images.gamebanana.com/img/ss/mods/65e752fb18899.jpg",
-      "tags": ["gameplay", "quest"],
+      "tags": [
+        "gameplay",
+        "quest"
+      ],
       "fileSize": 14781977,
       "sha256": "fd2b5b9766f7e45930681fff144b154889c0e47edaa3ef8b3db014bb129d4f87"
+    },
+    {
+      "id": "botw-trials-of-malice",
+      "name": "The Trials of Malice",
+      "author": "SDarkMagic",
+      "version": "gb-file-1457490",
+      "description": "Hidden post-Ganon combat shrine with difficult enemy waves. Activate alone to avoid merged-file conflicts.",
+      "download": "https://gamebanana.com/dl/1457490",
+      "type": "modpack",
+      "tags": [
+        "shrine",
+        "challenge",
+        "quest"
+      ],
+      "fileSize": 81029989,
+      "sha256": "05ae82d49160eb491be79838e32f09082790416da08b4feb8a9ec053e6200820",
+      "requirements": [
+        "Beat Ganon to access the shrine"
+      ]
+    },
+    {
+      "id": "botw-relics-dev",
+      "name": "Relics of the Past (development build)",
+      "author": "ShadowMarth-JTW",
+      "version": "gb-file-1771936",
+      "description": "Large difficulty and world overhaul with new enemies and chests. Development build; activate alone and expect unfinished content.",
+      "download": "https://gamebanana.com/dl/1771936",
+      "type": "modpack",
+      "tags": [
+        "overhaul",
+        "challenge",
+        "experimental"
+      ],
+      "fileSize": 251568044,
+      "sha256": "4b77d5a1ca5286a3a24a2b57298b53b576a7f8a9fd7fa2a685c7227f8e5c8f46",
+      "requirements": [
+        "Development build; hardware playthrough not verified"
+      ]
     }
   ]
 }

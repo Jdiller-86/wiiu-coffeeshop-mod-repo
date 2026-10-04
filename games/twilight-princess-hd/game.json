@@ -1,0 +1,28 @@
+{
+  "name": "The Legend of Zelda: Twilight Princess HD",
+  "titleIds": [
+    "000500001019E500"
+  ],
+  "mods": [
+    {
+      "id": "tphd-waluigi",
+      "name": "Waluigi for Twilight Princess HD",
+      "author": "Captain Kitty Cat",
+      "version": "gb-file-1104775",
+      "description": "Replaces Link with Waluigi, including text, icons and audio. USA assets; use alone. Physical Wii U play unverified.",
+      "download": "https://gamebanana.com/dl/1104775",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin",
+        "funny"
+      ],
+      "fileSize": 116542677,
+      "sha256": "f4a973472a3fc83c7151f6884d7c4e6d7e465234a72d8dc8109374a04c82652e",
+      "requirements": [
+        "USA game copy",
+        "Activate alone; combining TPHD mods needs manual file optimization"
+      ]
+    }
+  ]
+}

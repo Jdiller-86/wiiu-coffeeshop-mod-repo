@@ -1,0 +1,27 @@
+{
+  "name": "The Legend of Zelda: The Wind Waker HD",
+  "titleIds": [
+    "0005000010143500"
+  ],
+  "mods": [
+    {
+      "id": "wwhd-tails",
+      "name": "Miles ‘Tails’ Prower",
+      "author": "XModxGodX",
+      "version": "gb-file-1561879",
+      "description": "Play as Tails in place of Link, with voice and UI changes. USA files; physical Wii U play unverified.",
+      "download": "https://gamebanana.com/dl/1561879",
+      "type": "mod",
+      "tags": [
+        "character",
+        "skin",
+        "audio"
+      ],
+      "fileSize": 44800352,
+      "sha256": "64eb0220929b82dee98975b6fd1fcda75f508436b0de8100b797f8b9fb7c3557",
+      "requirements": [
+        "USA game copy"
+      ]
+    }
+  ]
+}
